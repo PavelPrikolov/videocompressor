@@ -36,6 +36,7 @@ python video_compressor.py
 Do compilation in any way you like, I personally did it through auto-py-to-exe and I will write how at the bottom:
 
 ```
+python -m venv venv
 pip install -r requirements.txt
 cmd /c venv\Scripts\activate.bat && pip install wxPython ffmpeg-python auto-py-to-exe
 cmd /c venv\Scripts\activate.bat && auto-py-to-exe
